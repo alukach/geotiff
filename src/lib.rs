@@ -7,7 +7,7 @@ use std::fmt;
 use std::io::Result;
 
 pub mod geotiff;
-mod lowlevel;
+pub mod lowlevel;
 mod reader;
 
 pub use geotiff::TIFF;
